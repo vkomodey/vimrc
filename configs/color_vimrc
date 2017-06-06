@@ -1,0 +1,8 @@
+syntax on
+
+if has("gui_running")
+    set lines=999 columns=999
+    set t_Co=256
+	set background=dark
+    colorscheme jay
+endif

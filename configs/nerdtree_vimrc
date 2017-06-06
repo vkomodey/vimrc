@@ -1,0 +1,9 @@
+if has("gui_running")
+     autocmd vimenter * NERDTree
+     autocmd vimenter * if !argc() | NERDTree | endif
+endif
+
+" NerdTree 
+" Show NERDTree on ctrl d
+map <C-d> :NERDTreeToggle<CR>
+let g:ctrlp_dont_split='NERD'

@@ -1,0 +1,8 @@
+
+" Ctrl P configuration
+let g:ctrlp_custom_ignore = {
+      \ 'dir':  '\v[\/]\.(git|hg|svn)|(node_modules|bower_components|jspm_packages|target|dist|build)$',
+      \ 'file': '\v\.(exe|so|dll|min.js|css|map)$',
+      \ 'link': 'some_bad_symbolic_links',
+      \ }
+let g:ctrlp_tabpage_position = 'c'

@@ -1,0 +1,6 @@
+if has("gui_running")
+    autocmd vimenter * GitGutterLineHighlightsEnable
+endif
+
+" vim-fugitive
+set diffopt+=vertical

@@ -1,0 +1,44 @@
+filetype off  
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+set rtp+=~/.vim/bundle/vundle/
+call plug#begin('~/.vim/plugged') 
+filetype plugin indent on   
+
+Plug 'vim-scripts/vim-auto-save'
+" --- HTML ---
+Plug 'mattn/emmet-vim'
+
+" --- You Complete Me! ---
+Plug 'Valloric/YouCompleteMe'
+
+" --- Code/project navigation ---
+Plug 'scrooloose/nerdtree' 		" Project and file navigation
+Plug 'ctrlpvim/ctrlp.vim'
+
+"------------------=== Other ===----------------------
+Plug 'bling/vim-airline'   	    	" Lean & mean status/tabline for vim
+Plug 'tpope/vim-surround'	   	" Parentheses, brackets, quotes, XMLtags, and more
+Plug 'scrooloose/nerdcommenter'
+Plug 'jiangmiao/auto-pairs' 
+
+"--------------=== Git support ===-------------------
+Plug 'airblade/vim-gitgutter'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'tpope/vim-fugitive'
+
+" ----------- JS ---------------
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+
+"--------------=== Themes === ------------------
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'josuegaleas/jay'
+
+"-------------=== Color schemes ----------------
+Plug 'josuegaleas/jay'
+
+call plug#end()
+filetype on
+filetype plugin on
+filetype plugin indent on
