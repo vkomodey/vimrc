@@ -34,6 +34,7 @@ Plug 'mxw/vim-jsx'
 "--------------=== Themes === ------------------
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'josuegaleas/jay'
+Plug 'altercation/vim-colors-solarized'
 
 "-------------=== Color schemes ----------------
 Plug 'josuegaleas/jay'
