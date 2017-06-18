@@ -21,6 +21,7 @@ Plug 'bling/vim-airline'   	    	" Lean & mean status/tabline for vim
 Plug 'tpope/vim-surround'	   	" Parentheses, brackets, quotes, XMLtags, and more
 Plug 'scrooloose/nerdcommenter'
 Plug 'jiangmiao/auto-pairs' 
+Plug 'alvan/vim-closetag'
 
 "--------------=== Git support ===-------------------
 Plug 'airblade/vim-gitgutter'
