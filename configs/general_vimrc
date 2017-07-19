@@ -11,6 +11,7 @@ set completeopt-=preview
 if has("gui_running")
 	set guioptions-=m  "remove menu bar
 	set guioptions-=T  "remove toolbar
+    set guifont=Noto\ Mono\ Bold\ 11
 endif
 " Status bar
 set ls=2
