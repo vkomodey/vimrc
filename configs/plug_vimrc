@@ -8,6 +8,7 @@ filetype plugin indent on
 Plug 'vim-scripts/vim-auto-save'
 " --- HTML ---
 Plug 'mattn/emmet-vim'
+Plug 'alvan/vim-closetag'
 
 " --- You Complete Me! ---
 Plug 'Valloric/YouCompleteMe'
