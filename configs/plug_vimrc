@@ -33,6 +33,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 
+" ----------- Search -----------
+Plug 'mileszs/ack.vim'
+
 "--------------=== Themes === ------------------
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'josuegaleas/jay'

@@ -13,3 +13,4 @@ source ~/.vim/configs/autosave_vimrc
 source ~/.vim/configs/git_vimrc
 source ~/.vim/configs/ctrlp_vimrc
 source ~/.vim/configs/nerdtree_vimrc
+source ~/.vim/configs/ack_vimrc
