@@ -16,6 +16,7 @@ Plug 'Valloric/YouCompleteMe'
 " --- Code/project navigation ---
 Plug 'scrooloose/nerdtree' 		" Project and file navigation
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'christoomey/vim-tmux-navigator'
 
 "------------------=== Other ===----------------------
 Plug 'bling/vim-airline'   	    	" Lean & mean status/tabline for vim
@@ -43,6 +44,7 @@ Plug 'altercation/vim-colors-solarized'
 
 "-------------=== Color schemes ----------------
 Plug 'josuegaleas/jay'
+
 
 call plug#end()
 filetype on
