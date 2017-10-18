@@ -76,3 +76,8 @@ nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 
 " select a word and replace it everywhere
 nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
+
+" Disable beeping
+set vb
+
+vnoremap // y/<C-R>"<CR>
