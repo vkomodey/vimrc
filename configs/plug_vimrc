@@ -41,6 +41,7 @@ Plug 'mileszs/ack.vim'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'josuegaleas/jay'
 Plug 'altercation/vim-colors-solarized'
+Plug 'nightsense/stellarized'
 
 "-------------=== Color schemes ----------------
 Plug 'josuegaleas/jay'
