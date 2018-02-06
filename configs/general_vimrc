@@ -49,6 +49,14 @@ augroup vimrc_autocmds
     autocmd FileType python,javascript set nowrap
 augroup END
 
+set filetype=javascript.jsx
+autocmd FileType html,css,javascript.jsx EmmetInstall
+let g:user_emmet_settings = {
+\   'javascript.jsx': {
+\        'extends': 'jsx',
+\    },
+\}
+
 " Buffers
 map <C-q> :bd<CR>
 
