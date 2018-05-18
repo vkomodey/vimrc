@@ -89,3 +89,5 @@ nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
 set vb
 
 vnoremap // y/<C-R>"<CR>
+
+nnoremap <Leader><Leader> :update<CR>
