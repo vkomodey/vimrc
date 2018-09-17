@@ -1,6 +1,6 @@
 # .vimrc
 
- - cp configs/.vimrc $HOME/.vimrc
+ - ln configs/.vimrc $HOME/.vimrc
  - curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
  - Enter vim (or execute source ~/.vimrc already opened vim instance)
  - You need `tmux` >= v1.8

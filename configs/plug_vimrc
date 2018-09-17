@@ -5,7 +5,6 @@ set rtp+=~/.vim/bundle/vundle/
 call plug#begin('~/.vim/plugged') 
 filetype plugin indent on   
 
-Plug 'vim-scripts/vim-auto-save'
 " --- HTML ---
 Plug 'mattn/emmet-vim'
 Plug 'alvan/vim-closetag'
@@ -31,20 +30,14 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-fugitive'
 
 " ----------- JS ---------------
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
+Plug 'vim-syntastic/syntastic'
+Plug 'mtscout6/syntastic-local-eslint.vim'
 
 " ----------- Search -----------
 Plug 'mileszs/ack.vim'
 
 "--------------=== Themes === ------------------
-Plug 'NLKNguyen/papercolor-theme'
-Plug 'josuegaleas/jay'
-Plug 'altercation/vim-colors-solarized'
-Plug 'nightsense/stellarized'
-
-"-------------=== Color schemes ----------------
-Plug 'josuegaleas/jay'
+Plug 'morhetz/gruvbox'
 
 
 call plug#end()
