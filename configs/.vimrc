@@ -15,6 +15,7 @@ source ~/.vim/configs/nerdtree_vimrc
 source ~/.vim/configs/ack_vimrc
 source ~/.vim/configs/syntastic_vimrc
 source ~/.vim/configs/ultisnips_vimrc
+source ~/.vim/configs/autosave_vimrc
 
 function! GuiTabLabel()
     return substitute( expand( '%:p' ), '.\+\/\(.\+\)\/.\+', '\1', '' )

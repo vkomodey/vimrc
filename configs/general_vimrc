@@ -26,7 +26,10 @@ set shiftwidth=4
 set expandtab
 set smartindent
 
-set novisualbell 
+" Disablee beep and flash
+" http://vim.wikia.com/wiki/Disable_beeping
+set noerrorbells visualbell t_vb= 
+autocmd GUIEnter * set visualbell t_vb=
 
 set enc=utf-8	     " utf8 as default encoding
 set ls=2             " show status bar always
