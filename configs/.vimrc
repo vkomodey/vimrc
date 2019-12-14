@@ -21,4 +21,3 @@ function! GuiTabLabel()
     return substitute( expand( '%:p' ), '.\+\/\(.\+\)\/.\+', '\1', '' )
 endfunction
 set guitablabel=%{GuiTabLabel()}
-

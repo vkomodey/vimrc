@@ -75,7 +75,7 @@ nnoremap <silent> <esc><esc> :noh<CR>
 nnoremap <space> viw
 
 " Folding
-set foldmethod=indent
+set foldmethod=syntax
 set foldlevelstart=99
 
 let javaScript_fold=1

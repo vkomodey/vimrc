@@ -36,6 +36,7 @@ Plug 'vim-syntastic/syntastic'
 Plug 'mtscout6/syntastic-local-eslint.vim'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'pangloss/vim-javascript'
 
 " ----------- Search -----------
 Plug 'mileszs/ack.vim'
