@@ -4,7 +4,18 @@ if has("gui_running")
     set lines=999 columns=999
     set t_Co=256
 	set background=dark
+    colorscheme onehalfdark
+    let g:airline_theme='onehalfdark'
+else
+    set background=dark
     colorscheme gruvbox
+endif
+
+" Showing true colors in vim(not only in gvim)
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+  set termguicolors
 endif
 
 function! GuiTabLabel()

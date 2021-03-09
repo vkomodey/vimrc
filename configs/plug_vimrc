@@ -23,9 +23,11 @@ Plug 'airblade/vim-gitgutter'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-fugitive'
 Plug 'mileszs/ack.vim'                              " Search
-Plug 'morhetz/gruvbox'                              " Theme
+" Themes
+Plug 'morhetz/gruvbox'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
+
 Plug 'MaxMEllon/vim-jsx-pretty'                     " The React syntax highlighting and indenting plugin for vim. Also supports the typescript tsx file.
-Plug 'puremourning/vimspector'                      " Python debugger
 Plug 'vim-syntastic/syntastic'                      " Syntastic manager
 
 
