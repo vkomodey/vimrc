@@ -6,5 +6,4 @@ autocmd FileType python nnoremap <F8> : !python3 % <CR>
 let g:pymode_rope_lookup_project = 0
 let g:pymode_rope = 0
 
-let g:ycm_filetype_blacklist = { 'python': 1 }
-let g:jedi#force_python_version = 3.7
+let g:jedi#force_python_version = 3.8

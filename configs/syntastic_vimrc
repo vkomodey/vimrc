@@ -6,7 +6,4 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-"let g:syntastic_javascript_checkers = ['eslint']
-"let g:syntastic_javascript_eslint_exe = 'npm run lint --'
-"Enable this option if you want the cursor to jump to the first detected issue when saving or opening a file. When set to 2 the cursor will jump to the first issue detected, but only if this issue is an error.
-let g:syntastic_auto_jump = 2
+let g:syntastic_python_checkers = ['flake8']
