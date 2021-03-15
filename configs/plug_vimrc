@@ -29,6 +29,7 @@ Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
 Plug 'MaxMEllon/vim-jsx-pretty'                     " The React syntax highlighting and indenting plugin for vim. Also supports the typescript tsx file.
 Plug 'vim-syntastic/syntastic'                      " Syntastic manager
+Plug 'tomlion/vim-solidity'                         " Syntax files for solidity
 
 
 
