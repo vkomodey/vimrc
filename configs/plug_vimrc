@@ -1,5 +1,4 @@
 filetype off  
-
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 call plug#begin('~/.vim/plugged') 
 set rtp+=~/.vim/plugged/YouCompleteMe
@@ -35,7 +34,8 @@ Plug 'MaxMEllon/vim-jsx-pretty'
 Plug 'vim-syntastic/syntastic'           
 " Syntax files for solidity
 Plug 'tomlion/vim-solidity'
-
+" Golang support
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 
 call plug#end()

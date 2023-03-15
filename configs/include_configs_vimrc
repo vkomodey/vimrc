@@ -10,3 +10,4 @@ source ~/.vim/configs/ultisnips_vimrc
 source ~/.vim/configs/autosave_vimrc
 source ~/.vim/configs/syntastic_vimrc
 source ~/.vim/configs/jedi_vimrc
+source ~/.vim/configs/vimgo_vimrc
