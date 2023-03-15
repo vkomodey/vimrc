@@ -3,9 +3,9 @@ syntax on
 if has("gui_running")
     set lines=999 columns=999
     set t_Co=256
-	set background=dark
-    colorscheme onehalfdark
-    let g:airline_theme='onehalfdark'
+    set background=dark
+    colorscheme molokai
+    let g:airline_theme='molokai'
 else
     set background=dark
     colorscheme gruvbox

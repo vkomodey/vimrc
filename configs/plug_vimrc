@@ -6,30 +6,35 @@ set rtp+=~/.vim/plugged/YouCompleteMe
 filetype plugin indent on   
 
 Plug 'mattn/emmet-vim'
-Plug 'alvan/vim-closetag'
 Plug 'Valloric/YouCompleteMe'
-Plug 'scrooloose/nerdtree' 		" Project and file navigation
+Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'bling/vim-airline'   	    	" Lean & mean status/tabline for vim
-Plug 'tpope/vim-surround'	   	" Parentheses, brackets, quotes, XMLtags, and more
+" Lean & mean status/tabline for vim
+Plug 'bling/vim-airline'
 Plug 'scrooloose/nerdcommenter'
-Plug 'jiangmiao/auto-pairs' 
+" AutoPairs alternative
+Plug 'cohama/lexima.vim'
 Plug 'alvan/vim-closetag'
 Plug 'vim-scripts/vim-auto-save'
 Plug 'davidhalter/jedi-vim'
-Plug 'ervandew/supertab'                            " Supertab is a vim plugin which allows you to use <Tab> for all your insert completion need
 Plug 'airblade/vim-gitgutter'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-fugitive'
-Plug 'mileszs/ack.vim'                              " Search
+Plug 'mileszs/ack.vim'
 " Themes
 Plug 'morhetz/gruvbox'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'tomasr/molokai'
+Plug 'jnurmine/Zenburn'
+Plug 'jacoborus/tender.vim'
 
-Plug 'MaxMEllon/vim-jsx-pretty'                     " The React syntax highlighting and indenting plugin for vim. Also supports the typescript tsx file.
-Plug 'vim-syntastic/syntastic'                      " Syntastic manager
-Plug 'tomlion/vim-solidity'                         " Syntax files for solidity
+" The React syntax highlighting and indenting plugin for vim. Also supports the typescript tsx file.
+Plug 'MaxMEllon/vim-jsx-pretty'
+" Syntastic manager
+Plug 'vim-syntastic/syntastic'           
+" Syntax files for solidity
+Plug 'tomlion/vim-solidity'
 
 
 
