@@ -1,9 +1,0 @@
-" Python
-autocmd FileType python setlocal expandtab shiftwidth=4 tabstop=8 
-autocmd FileType python nnoremap <F8> : !python3 % <CR>
-
-" Fix vim freeze in python mode
-let g:pymode_rope_lookup_project = 0
-let g:pymode_rope = 0
-
-let g:jedi#force_python_version = 3.8

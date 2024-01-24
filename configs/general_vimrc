@@ -93,4 +93,8 @@ nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
 set vb
 
 vnoremap // y/<C-R>"<CR>
-noremap <Leader><Leader> :update<CR>
+
+
+filetype plugin indent on
+
+syntax on

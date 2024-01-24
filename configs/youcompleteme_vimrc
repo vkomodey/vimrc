@@ -1,3 +1,6 @@
-let g:ycm_filetype_blacklist = {
-\ 'python': 1,
-\}
+let g:ycm_enable_inlay_hints=1
+" let g:ycm_clear_inlay_hints_in_insert_mode=1
+nmap <C-s> <Plug>(YCMFindSymbolInWorkspace)
+nmap <leader>gt :YcmCompleter GoTo<CR>
+nmap <leader>gtr :YcmCompleter GoToReferences<CR>
+nmap <leader>rr :YcmCompleter RefactorRename

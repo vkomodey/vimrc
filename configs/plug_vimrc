@@ -4,7 +4,6 @@ call plug#begin('~/.vim/plugged')
 set rtp+=~/.vim/plugged/YouCompleteMe
 filetype plugin indent on   
 
-Plug 'mattn/emmet-vim'
 Plug 'Valloric/YouCompleteMe'
 Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
@@ -16,7 +15,6 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'cohama/lexima.vim'
 Plug 'alvan/vim-closetag'
 Plug 'vim-scripts/vim-auto-save'
-Plug 'davidhalter/jedi-vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-fugitive'
@@ -28,14 +26,6 @@ Plug 'tomasr/molokai'
 Plug 'jnurmine/Zenburn'
 Plug 'jacoborus/tender.vim'
 
-" The React syntax highlighting and indenting plugin for vim. Also supports the typescript tsx file.
-Plug 'MaxMEllon/vim-jsx-pretty'
-" Syntastic manager
-Plug 'vim-syntastic/syntastic'           
-" Syntax files for solidity
-Plug 'tomlion/vim-solidity'
-" Golang support
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 
 call plug#end()
