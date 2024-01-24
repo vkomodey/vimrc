@@ -20,12 +20,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-fugitive'
 Plug 'mileszs/ack.vim'
 " Themes
-Plug 'morhetz/gruvbox'
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
-Plug 'tomasr/molokai'
-Plug 'jnurmine/Zenburn'
-Plug 'jacoborus/tender.vim'
-
+Plug 'rafi/awesome-vim-colorschemes' " list of themes - https://vimcolorschemes.com/rafi/awesome-vim-colorschemes/
 
 
 call plug#end()

@@ -4,8 +4,8 @@ if has("gui_running")
     set lines=999 columns=999
     set t_Co=256
     set background=dark
-    colorscheme molokai
-    let g:airline_theme='molokai'
+    colorscheme one
+    let g:airline_theme='one'
 else
     set background=dark
     colorscheme gruvbox
