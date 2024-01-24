@@ -20,16 +20,23 @@ set nu
 set relativenumber
 
 " Tab 
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 set smartindent
 
+" Folding
+set foldmethod=syntax
+set foldlevelstart=99
+
+let javaScript_fold=1
+set nofoldenable
+
 " Disablee beep and flash
 " http://vim.wikia.com/wiki/Disable_beeping
-set noerrorbells visualbell t_vb= 
-autocmd GUIEnter * set visualbell t_vb=
+"set noerrorbells visualbell t_vb= 
+" autocmd GUIEnter * set visualbell t_vb=
 
 set enc=utf-8	     " utf8 as default encoding
 set ls=2             " show status bar always
@@ -44,59 +51,41 @@ set nowritebackup    " only in case you don't want a backup file while editing
 set noswapfile 	     " no swap files
 
 
-" After 80 character highlight 
+" After 120 character highlight 
 augroup vimrc_autocmds
     autocmd!
     autocmd FileType python,javascript highlight Excess ctermbg=DarkGrey guibg=Black
     autocmd FileType python,javascript match Excess /\%120v.*/
     autocmd FileType python,javascript set nowrap
 augroup END
+autocmd FileType typescript setlocal shiftwidth=2 tabstop=2
+autocmd FileType python setlocal shiftwidth=4 tabstop=4
 
-set filetype=javascript.jsx
-autocmd FileType html,css,javascript.jsx EmmetInstall
-let g:user_emmet_settings = {
-\   'javascript.jsx': {
-\        'extends': 'jsx',
-\    },
-\}
-
-" Buffers
-map <C-q> :bd<CR>
 
 " Automaaticaly refresh the file 
 set autoread
 
-
-" 2 click left mouse search
-map <2-LeftMouse> *
-" Unhighlite search by pressing esc twice
-nnoremap <silent> <esc><esc> :noh<CR>
-
-" Select the whole word by pressing space
-nnoremap <space> viw
-
-" Folding
-set foldmethod=syntax
-set foldlevelstart=99
-
-let javaScript_fold=1
-set nofoldenable
-
-
-" Change directory 
-nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
-
-" select a word and replace it everywhere
-nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
-
 " Disable beeping
-set vb
-
-vnoremap // y/<C-R>"<CR>
+"set vb
 
 
 filetype plugin indent on
-
 syntax on
 
-autocmd FileType typescript setlocal shiftwidth=2 tabstop=2
+"=====================================================
+" Mappings
+"=====================================================
+
+" Unhighlite search by pressing esc twice
+nnoremap <silent> <esc><esc> :noh<CR>
+" 2 click left mouse search
+map <2-LeftMouse> *
+" Select the whole word by pressing space
+nnoremap <space> viw
+" Change directory 
+nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
+" select a word and replace it everywhere
+nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
+vnoremap // y/<C-R>"<CR>
+" Buffers
+map <C-q> :bd<CR>
