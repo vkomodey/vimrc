@@ -98,3 +98,5 @@ vnoremap // y/<C-R>"<CR>
 filetype plugin indent on
 
 syntax on
+
+autocmd FileType typescript setlocal shiftwidth=2 tabstop=2
