@@ -15,7 +15,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'cohama/lexima.vim'
 Plug 'alvan/vim-closetag'
 Plug 'vim-scripts/vim-auto-save'
-Plug 'airblade/vim-gitgutter'
+Plug 'airblade/vim-gitgutter', {'branch': 'main'}
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-fugitive'
 Plug 'mileszs/ack.vim'
