@@ -47,17 +47,17 @@ set scrolloff=5	     " scroll - 5 lines at once
 set nobackup 	     " no backup files
 set nowritebackup    " only in case you don't want a backup file while editing
 set noswapfile 	     " no swap files
+set nowrap
 
-
-" After 120 character highlight 
-augroup vimrc_autocmds
-    autocmd!
-    autocmd FileType python,javascript highlight Excess ctermbg=DarkGrey guibg=Black
-    autocmd FileType python,javascript match Excess /\%120v.*/
-    autocmd FileType python,javascript set nowrap
+augroup python_group
+  autocmd!
+  autocmd FileType python setlocal shiftwidth=4 tabstop=4
 augroup END
-autocmd FileType typescript setlocal shiftwidth=2 tabstop=2
-autocmd FileType python setlocal shiftwidth=4 tabstop=4
+
+augroup js_ts_group
+  autocmd!
+  autocmd FileType typescript,javascript setlocal shiftwidth=2 tabstop=2
+augroup END
 
 " Automaaticaly refresh the file 
 set autoread
@@ -97,4 +97,10 @@ map <C-q> :bd<CR>
 " Wrap a word with "
 nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
 " Wrap a selection with "
-vnoremap <leader>" <esc>a"<esc>'<i"<esc>f"
+" vnoremap <leader>" <esc>a"<esc>'<i"<esc>f"
+vnoremap <leader>" <esc>`<i"<esc>`>a"<esc>
+" Open a terminal
+nnoremap <leader>t :belowright terminal<cr>
+
+let mapleader = '\'
+let maplocalleader = '\\'
