@@ -44,8 +44,6 @@ set incsearch	     " incrementical search
 set hlsearch	     " highlight search results
 set nu	             " show line numbers
 set scrolloff=5	     " scroll - 5 lines at once
-
-
 set nobackup 	     " no backup files
 set nowritebackup    " only in case you don't want a backup file while editing
 set noswapfile 	     " no swap files
@@ -61,9 +59,16 @@ augroup END
 autocmd FileType typescript setlocal shiftwidth=2 tabstop=2
 autocmd FileType python setlocal shiftwidth=4 tabstop=4
 
-
 " Automaaticaly refresh the file 
 set autoread
+
+" Folding
+set foldmethod=syntax
+set foldlevelstart=99
+
+let javaScript_fold=1
+set nofoldenable
+
 
 " Disable beeping
 "set vb
@@ -89,3 +94,7 @@ nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
 vnoremap // y/<C-R>"<CR>
 " Buffers
 map <C-q> :bd<CR>
+" Wrap a word with "
+nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
+" Wrap a selection with "
+vnoremap <leader>" <esc>a"<esc>'<i"<esc>f"
