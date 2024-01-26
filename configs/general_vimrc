@@ -62,14 +62,6 @@ augroup END
 " Automaaticaly refresh the file 
 set autoread
 
-" Folding
-set foldmethod=syntax
-set foldlevelstart=99
-
-let javaScript_fold=1
-set nofoldenable
-
-
 " Disable beeping
 "set vb
 
