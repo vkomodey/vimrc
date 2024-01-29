@@ -92,7 +92,7 @@ nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
 " vnoremap <leader>" <esc>a"<esc>'<i"<esc>f"
 vnoremap <leader>" <esc>`<i"<esc>`>a"<esc>
 " Open a terminal
-nnoremap <leader>t :belowright terminal<cr>
+nnoremap <leader>t :belowright terminal ++rows=15<cr>
 
 let mapleader = '\'
 let maplocalleader = '\\'
