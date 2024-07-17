@@ -7,3 +7,4 @@ endif
 " Show NERDTree on ctrl d
 map <C-d> :NERDTreeToggle<CR>
 let g:ctrlp_dont_split='NERD'
+let NERDTreeNaturalSort=1
